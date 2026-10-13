@@ -1,10 +1,11 @@
 {
   "name": "demo-en-capas",
   "version": "1.0.0",
-  "description": "Demo de arquitectura Cliente-Servidor: cliente web + API Express + Postgres en Supabase, desplegada en Render. Versión refactorizada en capas. Arquitectura de Sistemas I 2026-2, Semana 8.",
+  "description": "Demo de arquitectura Cliente-Servidor: cliente web + API Express + Postgres en Supabase, desplegada en Render. Versión refactorizada con DIP y DI. Arquitectura de Sistemas I 2026-2, Semana 9.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node --test test/citaService.test.js"
   },
   "engines": {
     "node": ">=18"
